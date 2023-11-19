@@ -4,46 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css//index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Myntra Clone</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTKOYYxEUD6b3luWwy-cXJbueDUAAWJWwoheJmkJgqwg&s" height="36px" width="53px"></li>
-            <li>MEN</li>
-            <li>WOMEN</li>
-            <li>KIDS</li>
-            <li>HOME&LIVING</li>
-            <li>BEAUTY</li>
-            <li>STUDIO</li>
-            <li>Profile</li>
-            <li>Wishlist</li>
-            <li>Bag</li>
-        </ul>
-    </nav>
-    <section>
-        <div id="image-carousel">
-            <img src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/b656a7f4-4688-4997-bb7c-54b78793981e1658752386588-Western-Wear_Desk.jpg">
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="myntra_home" src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=Resize,width=360,aspect=fit,type=normal?im=Resize,width=320,aspect=fit,type=normal" alt="Myntra_logo"></a>
         </div>
-        <div id="globalBrands">
-            <h1>Grand Global Brands</h1>
-            <div>
-
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio<sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">
+                search
+            </span>
+            <input class="search_input" placeholder="Search for products, brands and more"/>
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">
+                    person
+                    </span>
+                <span class="action_name">Profile</span>    
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">
+                    favorite
+                    </span>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">
+                    shopping_bag
+                    </span>
+                <span class="action_name">Bag</span>
             </div>
         </div>
-        <div id="globalBrands">
-            <h1>Shop By Category</h1>
-            <div>
-                
-            </div>
+    </header>
+    <main>
+        <div class="banner_container">
+            <img class="banner_image" src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/28/6107d28b-2bcb-44e6-9743-655b54550b8f1659020199598-Workwear_Desk--1-.jpg" alt="Banner_Main"/>
         </div>
-    </section>
+        <div class="category_heading">
+            MEDAL WORTHY BRANDS TO BAG
+        </div>
+        <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/5a8540d5-9bd0-4a5b-81ee-063f8f23cf1c1691142814463-image_png1048777875.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/ccebd3fc-3628-4eb5-9604-5487049c2cff1691142886405-image_png356438875.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/b504644b-f446-48c9-b928-36f1958bd19a1691142484406-image_png_292913761.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/7abcde7c-18e5-44c5-9cd9-c1490daa842a1691142533559-image_png2078004791.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/81bcb28d-55f3-4d7b-bb5a-7cf7ee7fd8031690773011370-The_Collective.png"></a>
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/3/d6529cc8-ff03-4d85-88b7-5358a1d5a46b1691057399814-image_png1830835492.png"></a>
+        </div>
+    </main>
     <footer>
-        <ul>
-            <li>ONLINE SHOPPING</li>
-            <li>CUSTOMER POLICIES</li>
-            <li>EXPERIENCE MYNTRA APP ON MOBILE</li>
-        </ul>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+            <div class="footer_column">
+                <h3>CUSTOMER POLICIES</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">T&C</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Track Orders</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation</a>
+            </div>
+            <div class="footer_column">
+                <h3>USEFUL LINKS</h3>
+                <a href="#">Blog</a>
+                <a href="#">Carrers</a>
+                <a href="#">Site Map</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Whitehat</a>
+                <a href="#">Cleartrip</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            © 2023 www.myntra.com. All rights reserved.
+        </div>
     </footer>
 </body>
 </html>
